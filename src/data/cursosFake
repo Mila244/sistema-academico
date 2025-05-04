@@ -1,0 +1,14 @@
+const cursos = {
+    sistemas: [
+      { id: 1, nombre: "Estructura de Datos", ciclo: 3 },
+      { id: 2, nombre: "Base de Datos I", ciclo: 4 },
+      { id: 3, nombre: "Algoritmos Avanzados", ciclo: 3, requisito: 2 },
+    ],
+    contabilidad: [
+      { id: 3, nombre: "Contabilidad General", ciclo: 1 },
+      { id: 4, nombre: "Matemática Financiera", ciclo: 2 },
+      { id: 6, nombre: "Auditoría", ciclo: 3, requisito: 5 },
+    ],
+  };
+  
+  export default cursos;
