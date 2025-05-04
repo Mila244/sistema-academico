@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
 import "./Login.css"; 
+import logo from "../assets/LogoUlima.jpg";
 
 function Login() {
     const [usuario, setUsuario] = useState("");
@@ -19,10 +20,7 @@ function Login() {
         <div className="login-container">
           <div className="login-card">
             <img
-              src="https://www.ulima.edu.pe/sites/all/themes/ulima/logo.png"
-              alt="Logo Universidad"
-              className="login-logo"
-            />
+              src={logo} alt="Logo Universidad" className="login-logo" />
             <h2>Iniciar Sesión</h2>
             <input
               type="text"
